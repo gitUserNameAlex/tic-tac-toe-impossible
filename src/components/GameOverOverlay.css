@@ -1,0 +1,83 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 10, 26, 0.85);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  animation: fadeIn 0.4s ease-out;
+}
+
+.overlay-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  animation: scaleIn 0.4s ease-out;
+}
+
+.overlay-result {
+  font-family: var(--font-heading);
+  font-size: 2.6rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.result--win {
+  color: var(--neon-cyan);
+  text-shadow: var(--glow-cyan);
+}
+
+.result--lose {
+  color: var(--neon-pink);
+  text-shadow: var(--glow-pink);
+}
+
+.result--tie {
+  color: var(--neon-yellow);
+  text-shadow: 0 0 10px #ffe600, 0 0 30px rgba(255, 230, 0, 0.3);
+}
+
+.overlay-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.overlay-btn {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  padding: 14px 28px;
+  border-radius: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.overlay-btn--primary {
+  background: linear-gradient(135deg, var(--neon-purple), var(--neon-cyan));
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 0 20px rgba(176, 38, 255, 0.3), 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.overlay-btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 30px rgba(176, 38, 255, 0.5), 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.overlay-btn--secondary {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--text-muted);
+}
+
+.overlay-btn--secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+  transform: translateY(-2px);
+}

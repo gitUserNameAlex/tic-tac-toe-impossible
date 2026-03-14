@@ -1,0 +1,32 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.game-turn-indicator {
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.turn-text {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.turn--player {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.4);
+}
+
+.turn--ai {
+  color: var(--neon-pink);
+  text-shadow: 0 0 8px rgba(255, 45, 117, 0.4);
+  animation: pulseGlow 1s ease-in-out infinite;
+}

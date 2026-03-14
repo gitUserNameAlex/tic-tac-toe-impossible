@@ -1,0 +1,33 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.app-title {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: flex;
+  gap: 0;
+  user-select: none;
+}
+
+.title-tic {
+  color: var(--neon-cyan);
+  text-shadow: var(--glow-cyan);
+}
+
+.title-tac {
+  color: var(--neon-pink);
+  text-shadow: var(--glow-pink);
+}
+
+.title-toe {
+  color: var(--neon-purple);
+  text-shadow: var(--glow-purple);
+}
