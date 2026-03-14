@@ -18,16 +18,16 @@
 }
 
 .title-tic {
-  color: var(--neon-cyan);
-  text-shadow: var(--glow-cyan);
+  color: var(--color-amber);
+  text-shadow: var(--glow-amber);
 }
 
 .title-tac {
-  color: var(--neon-pink);
-  text-shadow: var(--glow-pink);
+  color: var(--color-terra);
+  text-shadow: var(--glow-terra);
 }
 
 .title-toe {
-  color: var(--neon-purple);
-  text-shadow: var(--glow-purple);
+  color: var(--color-caramel);
+  text-shadow: var(--glow-caramel);
 }

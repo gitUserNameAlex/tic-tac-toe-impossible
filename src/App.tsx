@@ -35,9 +35,7 @@ export default function App() {
   return (
     <div className="app">
       <h1 className="app-title">
-        <span className="title-tic">Крестики</span>
-        <span className="title-tac">-</span>
-        <span className="title-toe">Нолики</span>
+        <span className="title-tic">Крестики-нолики</span>
       </h1>
 
       {phase === 'menu' && (

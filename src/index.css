@@ -5,18 +5,18 @@
 }
 
 :root {
-  --bg-primary: #0a0a1a;
-  --bg-secondary: #12122a;
-  --neon-cyan: #00f0ff;
-  --neon-pink: #ff2d75;
-  --neon-purple: #b026ff;
-  --neon-green: #39ff14;
-  --neon-yellow: #ffe600;
-  --text-primary: #e0e0f0;
-  --text-muted: #7a7a9a;
-  --glow-cyan: 0 0 10px #00f0ff, 0 0 30px rgba(0, 240, 255, 0.3);
-  --glow-pink: 0 0 10px #ff2d75, 0 0 30px rgba(255, 45, 117, 0.3);
-  --glow-purple: 0 0 10px #b026ff, 0 0 30px rgba(176, 38, 255, 0.3);
+  --bg-primary: #1a0f08;
+  --bg-secondary: #2a1a0e;
+  --color-amber: #f5a623;
+  --color-terra: #e0533d;
+  --color-caramel: #d4813f;
+  --color-olive: #8bc34a;
+  --color-peach: #ffd180;
+  --text-primary: #f5e6d3;
+  --text-muted: #9a8570;
+  --glow-amber: 0 0 10px #f5a623, 0 0 30px rgba(245, 166, 35, 0.3);
+  --glow-terra: 0 0 10px #e0533d, 0 0 30px rgba(224, 83, 61, 0.3);
+  --glow-caramel: 0 0 10px #d4813f, 0 0 30px rgba(212, 129, 63, 0.3);
   --font-heading: 'Orbitron', sans-serif;
   --font-body: 'Inter', sans-serif;
 }
@@ -28,7 +28,7 @@ html, body {
 
 body {
   font-family: var(--font-body);
-  background: linear-gradient(135deg, #0a0a1a 0%, #1a0a2e 50%, #0a1628 100%);
+  background: linear-gradient(135deg, #1a0f08 0%, #2e1a0a 50%, #1a1208 100%);
   color: var(--text-primary);
   display: flex;
   justify-content: center;

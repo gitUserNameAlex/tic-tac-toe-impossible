@@ -21,12 +21,12 @@
 }
 
 .turn--player {
-  color: var(--neon-cyan);
-  text-shadow: 0 0 8px rgba(0, 240, 255, 0.4);
+  color: var(--color-amber);
+  text-shadow: 0 0 8px rgba(245, 166, 35, 0.4);
 }
 
 .turn--ai {
-  color: var(--neon-pink);
-  text-shadow: 0 0 8px rgba(255, 45, 117, 0.4);
+  color: var(--color-terra);
+  text-shadow: 0 0 8px rgba(224, 83, 61, 0.4);
   animation: pulseGlow 1s ease-in-out infinite;
 }

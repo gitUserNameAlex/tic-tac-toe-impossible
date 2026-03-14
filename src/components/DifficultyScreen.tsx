@@ -5,10 +5,10 @@ interface Props {
   onSelect: (difficulty: Difficulty) => void;
 }
 
-const difficulties: { key: Difficulty; label: string; icon: string; desc: string }[] = [
-  { key: 'easy', label: 'Легко', icon: '🌱', desc: 'Случайные ходы. Для разминки!' },
-  { key: 'medium', label: 'Средне', icon: '⚡', desc: 'Стратегия вперемешку со случайностью.' },
-  { key: 'impossible', label: 'Невозможно', icon: '🔥', desc: 'Идеальный ИИ. Сможешь свести вничью?' },
+const difficulties: { key: Difficulty; label: string }[] = [
+  { key: 'easy', label: 'Легко' },
+  { key: 'medium', label: 'Средне' },
+  { key: 'impossible', label: 'Невозможно' },
 ];
 
 export default function DifficultyScreen({ onSelect }: Props) {
@@ -23,9 +23,7 @@ export default function DifficultyScreen({ onSelect }: Props) {
             onClick={() => onSelect(d.key)}
             style={{ animationDelay: `${i * 0.1}s` }}
           >
-            <span className="difficulty-icon">{d.icon}</span>
             <span className="difficulty-label">{d.label}</span>
-            <span className="difficulty-desc">{d.desc}</span>
           </button>
         ))}
       </div>

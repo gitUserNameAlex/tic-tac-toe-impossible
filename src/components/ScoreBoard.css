@@ -12,10 +12,10 @@
   letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--text-muted);
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(245, 166, 35, 0.06);
   padding: 6px 18px;
   border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(245, 166, 35, 0.12);
 }
 
 .scoreboard-stats {
@@ -44,16 +44,16 @@
 }
 
 .stat--win .stat-value {
-  color: var(--neon-cyan);
-  text-shadow: 0 0 8px rgba(0, 240, 255, 0.4);
+  color: var(--color-amber);
+  text-shadow: 0 0 8px rgba(245, 166, 35, 0.4);
 }
 
 .stat--loss .stat-value {
-  color: var(--neon-pink);
-  text-shadow: 0 0 8px rgba(255, 45, 117, 0.4);
+  color: var(--color-terra);
+  text-shadow: 0 0 8px rgba(224, 83, 61, 0.4);
 }
 
 .stat--tie .stat-value {
-  color: var(--neon-yellow);
-  text-shadow: 0 0 8px rgba(255, 230, 0, 0.4);
+  color: var(--color-peach);
+  text-shadow: 0 0 8px rgba(255, 209, 128, 0.4);
 }

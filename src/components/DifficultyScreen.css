@@ -29,8 +29,8 @@
   width: 160px;
   padding: 28px 18px;
   border-radius: 16px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 2px solid rgba(255, 255, 255, 0.08);
+  background: rgba(245, 166, 35, 0.04);
+  border: 2px solid rgba(245, 166, 35, 0.1);
   cursor: pointer;
   transition: all 0.3s ease;
   animation: cardAppear 0.6s ease-out both;
@@ -65,22 +65,22 @@
 
 .difficulty-card:hover {
   transform: translateY(-6px);
-  background: rgba(255, 255, 255, 0.07);
+  background: rgba(245, 166, 35, 0.07);
 }
 
 .difficulty-card--easy:hover {
-  border-color: var(--neon-green);
-  box-shadow: 0 0 20px rgba(57, 255, 20, 0.2), 0 8px 30px rgba(0, 0, 0, 0.3);
+  border-color: var(--color-olive);
+  box-shadow: 0 0 20px rgba(139, 195, 74, 0.2), 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 
 .difficulty-card--medium:hover {
-  border-color: var(--neon-yellow);
-  box-shadow: 0 0 20px rgba(255, 230, 0, 0.2), 0 8px 30px rgba(0, 0, 0, 0.3);
+  border-color: var(--color-peach);
+  box-shadow: 0 0 20px rgba(255, 209, 128, 0.2), 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 
 .difficulty-card--impossible:hover {
-  border-color: var(--neon-pink);
-  box-shadow: 0 0 20px rgba(255, 45, 117, 0.2), 0 8px 30px rgba(0, 0, 0, 0.3);
+  border-color: var(--color-terra);
+  box-shadow: 0 0 20px rgba(224, 83, 61, 0.2), 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 
 .difficulty-icon {
@@ -96,15 +96,15 @@
 }
 
 .difficulty-card--easy .difficulty-label {
-  color: var(--neon-green);
+  color: var(--color-olive);
 }
 
 .difficulty-card--medium .difficulty-label {
-  color: var(--neon-yellow);
+  color: var(--color-peach);
 }
 
 .difficulty-card--impossible .difficulty-label {
-  color: var(--neon-pink);
+  color: var(--color-terra);
 }
 
 .difficulty-desc {
